@@ -46,3 +46,5 @@ Execute o script:
 ```bash
 python main.py
 ```
+## 🧑‍💻 Autor
+Projeto desenvolvido por Lucas Vidotto
