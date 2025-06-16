@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação em Python que utiliza Selenium WebDriver para capturar dados automaticamente de um sistema web, com auxílio de interfaces gráficas Tkinter para orientar o usuário durante o processo.
 
-📋 Funcionalidades
+##📋 Funcionalidades
 ✅ Captura de dados de várias seções como:
 
 Titular
@@ -15,19 +15,34 @@ Credor
 ✅ Tratamento de campos não encontrados na página com fallback para "NÃO ENCONTRADO".
 ✅ Estrutura de dados organizada usando Python Dataclasses para facilitar a manipulação posterior.
 
-🛠️ Tecnologias Utilizadas
+##🛠️ Tecnologias Utilizadas
 Python 3.x
 Selenium WebDriver
 Tkinter
 Dataclasses
 
-🚀 Como Executar o Projeto
+##🚀 Como Executar o Projeto
 Pré-requisitos:
 Python 3.x instalado
 Google Chrome instalado
 ChromeDriver compatível com sua versão do Chrome (adicione o executável do chromedriver à sua variável de ambiente ou mantenha na mesma pasta do projeto)
 
-Instalação de Dependências:
+##Instalação de Dependências:
 ```bash
 pip install selenium
+```
+
+##Estrutura Básica do Projeto:
+```bash
+├── main.py                # Código principal (o seu código)
+├── README.md              # Este arquivo
+└── chromedriver.exe       # (opcional - caso queira deixar junto)
+```
+
+##Como Rodar:
+Abra o terminal na pasta do projeto
+Execute o script:
+
+```bash
+python main.py
 ```
