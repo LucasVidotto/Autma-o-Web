@@ -473,7 +473,7 @@ def mostrar_finalizacao(ao_finalizar):
     root.mainloop()
 
 def main():
-    url = "https://webapp.exmpartners.com.br/users/login"
+    url = "site"
     driver = abrir_navegador(url)
     resultado = {}
 
